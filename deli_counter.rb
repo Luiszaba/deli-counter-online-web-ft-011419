@@ -5,9 +5,11 @@ def line(katz_deli)
     puts "The line is currently empty."
 else 
   new_line = "The line is currently:"
-  katz_deli.each.with_index do {|customers, index| new_line<<" #{index}. #{customers}"}
+  katz_deli.each.with_index(1) do |customers, index| 
+    new_line<<" #{index}. #{customers}"
 end
 puts new_line
+end
 end
 
 def take_a_number(katz_deli, other_deli)
