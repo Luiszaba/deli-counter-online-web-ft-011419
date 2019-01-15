@@ -7,6 +7,7 @@ else
   new_line = "The line is currently:"
   katz_deli.each.with_index {|customers, index| new_line << " #{index}. #{customers}"}
 end
+end
 puts new_line
 end
 end
