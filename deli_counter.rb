@@ -9,7 +9,6 @@ else
 end
 puts new_line
 end
-end
 
 def take_a_number(katz_deli, other_deli)
   katz_deli << other_deli
